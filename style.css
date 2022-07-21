@@ -1,0 +1,239 @@
+  body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.image-row {
+  height: 25px;
+  padding: 0 50px;
+  width: 216px;
+
+  background-repeat: no-repeat;
+
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  color: red;
+  animation-name: colorCycle;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 0.75s;
+}
+.skull-container {
+  background-color: #fff;
+  margin: 2rem 0;
+  width: 600px
+}
+.skull .image-row {
+  background-image: url("/assets/skull.png");
+  margin: 0 auto;
+}
+#r1 {
+  background-position: 0 0;
+  animation-name: rowOne;
+}
+#r2 {
+  background-position: 0 -25px;
+  animation-name: rowTwo;
+  animation-delay: 100ms;
+}
+#r3 {
+  background-position: 0 -50px;
+  animation-name: rowThree;
+  animation-delay: 200ms;
+}
+#r4 {
+  background-position: 0 -75px;
+  animation-name: rowFour;
+  animation-delay: 300ms;
+}
+#r5 {
+  background-position: 0 -100px;
+  animation-name: rowFive;
+  animation-delay: 400ms;
+}
+#r6 {
+  background-position: 0 -125px;
+  animation-name: rowSix;
+  animation-delay: 500ms;
+}
+#r7 {
+  background-position: 0 -150px;
+  animation-name: rowSeven;
+  animation-delay: 600ms;
+}
+#r8 {
+  background-position: 0 -175px;
+  animation-name: rowEight;
+  animation-delay: 700ms;
+}
+#r9 {
+  background-position: 0 -200px;
+  animation-name: rowNine;
+  animation-delay: 800ms;
+}
+#r10 {
+  background-position: 0 -225px;
+  animation-name: rowTen;
+  animation-delay: 900ms;
+}
+#r11 {
+  background-position: 0 -250px;
+  animation-name: rowEleven;
+  animation-delay: 1000ms;
+}
+#r12 {
+  background-position: 0 -275px;
+  animation-name: rowTwelve;
+  animation-delay: 1100ms;
+}
+#r13 {
+  background-position: 0 -300px;
+  animation-name: rowThirteen;
+  animation-delay: 1200ms;
+}
+#r14 {
+  background-position: 0 -325px;
+  animation-name: rowFourteen;
+  animation-delay: 1300ms;
+}
+
+@keyframes colorCycle {
+  0% { color: red }
+  25% { color: blue }
+  50% { color: green }
+  75% { color: yellow }
+  100% { color: orange }
+}
+
+@keyframes rowOne {
+  from {
+    background-position: 0 0px;
+  }
+  to {
+    background-position: 20px 0;
+  }
+}
+@keyframes rowTwo {
+  from {
+    background-position: 0 -25px;
+  }
+  to {
+    background-position: 20px -25px;
+  }
+}
+@keyframes rowThree {
+  from {
+    background-position: 0 -50px;
+  }
+  to {
+    background-position: 20px -50px;
+  }
+}
+@keyframes rowFour {
+  from {
+    background-position: 0 -75px;
+  }
+  to {
+    background-position: 20px -75px;
+  }
+}
+@keyframes rowFive {
+  from {
+    background-position: 0 -100px;
+  }
+  to {
+    background-position: 20px -100px;
+  }
+}
+@keyframes rowSix {
+  from {
+    background-position: 0 -125px;
+  }
+  to {
+    background-position: 20px -125px;
+
+  }
+}
+@keyframes rowSeven {
+  from {
+    background-position: 0 -150px;
+  }
+  to {
+    background-position: 20px -150px;
+
+  }
+}
+@keyframes rowEight {
+  from {
+    background-position: 0 -175px;
+  }
+  to {
+    background-position: 20px -175px;
+
+  }
+}
+@keyframes rowNine {
+  from {
+    background-position: 0 -200px;
+  }
+  to {
+    background-position: 20px -200px;
+
+  }
+}
+@keyframes rowTen {
+  from {
+    background-position: 0 -225px;
+  }
+  to {
+    background-position: 20px -225px;
+
+  }
+}
+@keyframes rowEleven {
+  from {
+    background-position: 0 -250px;
+  }
+  to {
+    background-position: 20px -250px;
+
+  }
+}
+@keyframes rowTwelve {
+  from {
+    background-position: 0 -275px;
+  }
+  to {
+    background-position: 20px -275px;
+
+  }
+}
+@keyframes rowThirteen {
+  from {
+    background-position: 0 -300px;
+  }
+  to {
+    background-position: 20px -300px;
+
+  }
+}
+@keyframes rowFourteen {
+  from {
+    background-position: 0 -325px;
+  }
+  to {
+    background-position: 20px -325px;
+
+  }
+}
